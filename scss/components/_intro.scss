@@ -1,0 +1,52 @@
+.intro {
+  &__wrapper {
+    max-width: 984px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 45px;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 35px;
+  }
+
+  &__content {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 683px;
+    line-height: 169.432%; 
+  }
+
+  &__autor {
+    width: max-content;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 157.33%;
+
+    span{
+      font-weight: 400;
+    }
+  }
+
+  &__info {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 157.33%;
+    span{
+    font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: $bg-color ;
+    color: $font-color;
+}
+
+.container{
+    max-width: $width-var;
+    width: 100%;
+    margin: 0 auto;
+}

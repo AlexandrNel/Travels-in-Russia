@@ -1,0 +1,214 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #2A2C2F;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 31px 0 47px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__langs {
+  display: flex;
+  gap: 18px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header__langs p {
+  padding-bottom: 4px;
+  transition: all 0.1s ease-in-out;
+}
+
+#ru.active,
+#en.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.lead {
+  margin-bottom: 80px;
+}
+.lead__title {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 96.818%;
+  max-width: 782px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.lead__subtitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  max-width: 583px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+}
+.lead__image {
+  position: relative;
+  max-width: 984px;
+  margin: 0 auto;
+}
+.lead__image img:nth-child(2) {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+}
+.lead__caption {
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.intro__wrapper {
+  max-width: 984px;
+  margin: 0 auto;
+}
+.intro__title {
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+.intro__subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.intro__content {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 35px;
+}
+.intro__text {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 683px;
+  line-height: 169.432%;
+}
+.intro__autor {
+  width: max-content;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 157.33%;
+}
+.intro__autor span {
+  font-weight: 400;
+}
+.intro__info {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 157.33%;
+}
+.intro__info span {
+  font-weight: 400;
+}
