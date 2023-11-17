@@ -1,4 +1,5 @@
 .intro {
+  margin-bottom: 92px;
   &__wrapper {
     max-width: 984px;
     margin: 0 auto;
@@ -26,7 +27,7 @@
     font-size: 14px;
     font-weight: 400;
     max-width: 683px;
-    line-height: 169.432%; 
+    line-height: 169.432%;
   }
 
   &__autor {
@@ -36,7 +37,7 @@
     flex-shrink: 0;
     line-height: 157.33%;
 
-    span{
+    span {
       font-weight: 400;
     }
   }
@@ -45,8 +46,8 @@
     font-size: 13px;
     font-weight: 700;
     line-height: 157.33%;
-    span{
-    font-weight: 400;
+    span {
+      font-weight: 400;
     }
   }
 }

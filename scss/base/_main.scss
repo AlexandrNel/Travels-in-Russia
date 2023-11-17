@@ -10,7 +10,9 @@ body{
 }
 
 .container{
-    max-width: $width-var;
+    max-width: $width-var + $padding-var * 2;
     width: 100%;
     margin: 0 auto;
+    padding-left: $padding-var;
+    padding-right: $padding-var;
 }
