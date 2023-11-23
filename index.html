@@ -77,18 +77,42 @@
     <section class="photo-grid">
         <div class="container">
             <div class="photo-grid__wrapper">
-                <img src="./img/photo-grid/__item.png" alt="" />
-                <img src="./img/photo-grid/__item-1.png" alt="" />
-                <img src="./img/photo-grid/__item-2.png" alt="" />
-                <img src="./img/photo-grid/__item-3.png" alt="" />
-                <img src="./img/photo-grid/__item-4.png" alt="" />
-                <img src="./img/photo-grid/__item-5.png" alt="" />
-                <img src="./img/photo-grid/__item-6.png" alt="" />
-                <img src="./img/photo-grid/__item-7.png" alt="" />
-                <img src="./img/photo-grid/__item-8.png" alt="" />
-                <img src="./img/photo-grid/__item-9.png" alt="" />
-                <img src="./img/photo-grid/__item-10.png" alt="" />
-                <img src="./img/photo-grid/__item-11.png" alt="" />
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-1.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-2.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-3.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-4.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-5.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-6.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-7.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-8.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-9.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-10.png" alt="" />
+                </div>
+                <div class="photo-grid__image">
+                    <img src="./img/photo-grid/__item-11.png" alt="" />
+                </div>
             </div>
         </div>
     </section>
@@ -97,7 +121,7 @@
             <div class="places__wrapper">
                 <div class="places__item">
                     <div class="places__row">
-                        <h3 class="places__title">Куршская коса</h3>
+                        <h3 class="places__title title">Куршская коса</h3>
                         <div class="places__link">
                             <p class="places__url-heading">URL</p>
                             <a class="places__url">park-kosa.ru</a>
@@ -129,7 +153,7 @@
                 </div>
                 <div class="places__item">
                     <div class="places__row">
-                        <h3 class="places__title">Кольский</h3>
+                        <h3 class="places__title title">Кольский</h3>
                         <div class="places__link">
                             <p class="places__url-heading">URL</p>
                             <a class="places__url">National Geographic</a>
@@ -158,7 +182,7 @@
                 </div>
                 <div class="places__item">
                     <div class="places__row">
-                        <h3 class="places__title">Алтай</h3>
+                        <h3 class="places__title title">Алтай</h3>
                         <div class="places__link">
                             <p class="places__url-heading">URL</p>
                             <a class="places__url">Facebook</a>
@@ -187,7 +211,7 @@
                 </div>
                 <div class="places__item">
                     <div class="places__row">
-                        <h3 class="places__title">Зимний Байкал</h3>
+                        <h3 class="places__title title">Зимний Байкал</h3>
                         <div class="places__link">
                             <p class="places__url-heading">URL</p>
                             <a class="places__url">https://vk.com/baikalmile</a>
@@ -215,7 +239,7 @@
                 </div>
                 <div class="places__item">
                     <div class="places__row">
-                        <h3 class="places__title">Карелия</h3>
+                        <h3 class="places__title title">Карелия</h3>
                         <div class="places__link">
                             <p class="places__url-heading">URL</p>
                             <a class="places__url">http://vodlozero.ru/</a>
@@ -237,6 +261,14 @@
                                 А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы
                                 все знали, кто тут хозяин.
                             </p>
+                            Screencast Mode: Only Keyboard Shortcuts
+
+                            <img src="" alt="">
+                            <img src="" alt="">
+                            <img src="" alt="">
+                            <img src="" alt="">
+                            <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src=""
+                                alt=""><img src="" alt=""><img src="" alt="">
                         </div>
                     </div>
                 </div>
@@ -244,8 +276,97 @@
         </div>
         </div>
     </section>
-    <video src=""></video>
-    
+    <section class="video">
+        <div class="container">
+            <div class="video__wrapper">
+                <h3 class="video__title title">В глубины Земли и в дальний космос</h3>
+                <p class="video__subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
+                    исследования</p>
+                <div class="video__row">
+                    <div class="video__item">
+                        <video class="video-kamchatka" src="./video/kamchatka.mp4" muted controls
+                            poster="./img/video/kamchatka.png" title="Цвета Камчатки">
+                            <source src="./video/" type="video/mp4">
+                        </video>
+                        <!-- <button class="video__play-btn">
+                            <img src="./img/video/__icon_play.png" alt="Кнопка Play">
+                        </button>  -->
+                        <div class="video__text">
+                            <div class="video__time">6:30</div>
+                            <div class="video__name">Colors of <br> Kamchatka
+                            </div>
+                            <div class="video__director">Director: Pavel Karykhalin</div>
+                        </div>
+                    </div>
+                    <div class="video__item">
+                        <video class="video-observatory" src="./video/observatory.mp4" muted controls
+                            poster="./img/video/observatory.png" title="Обсерватория">
+                            <source src="./video/" type="video/mp4">
+                        </video>
+                        <!-- <button class="video__play-btn">
+                            <img src="./img/video/__icon_play.png" alt="Кнопка Play">
+                        </button>  -->
+                        <div class="video__text">
+                            <div class="video__time">23:30</div>
+                            <div class="video__name">Обсерватория | <br> Observatory</div>
+                            <div class="video__director">Director: Alexander Khudokon </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="additional">
+        <div class="container">
+            <div class="additional__wrapper">
+                <h3 class="additional__title title">А также</h3>
+                <p class="additional__subtitle subtitle">места, рекомендованные нашими фотографами</p>
+                <div class="additional__row">
+                    <a href="#!">
+                        <div class="additional__novorossiysk-harbor">
+                            <h4 class="additional__title-item">Новороссийская бухта</h4>
+                            <p class="additional__desc-item">Главный торговый порт не курорт, но море здесь лазурное, и
+                                толпы кораблей на рейде. Залюбуешься.</p>
+                        </div>
+                    </a>
+                    <a href="#!">
+                        <div class="additional__arakul-ikhan">
+                            <h4 class="additional__title-item">Новороссийская бухта</h4>
+                            <p class="additional__desc-item">Главный торговый порт не курорт, но море здесь лазурное, и
+                                толпы кораблей на рейде. Залюбуешься.</p>
+                        </div>
+                    </a>
+                    <a href="#!">
+                        <div class="additional__cherepovets">
+                            <h4 class="additional__title-item">Новороссийская бухта</h4>
+                            <p class="additional__desc-item">Главный торговый порт не курорт, но море здесь лазурное, и
+                                толпы кораблей на рейде. Залюбуешься.</p>
+                        </div>
+                    </a>
+                    <a href="#!">
+                        <div class="additional__nikola-lenivets">
+                            <h4 class="additional__title-item">Новороссийская бухта</h4>
+                            <p class="additional__desc-item">Главный торговый порт не курорт, но море здесь лазурное, и
+                                толпы кораблей на рейде. Залюбуешься.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="container">
+            <div class="comments__wrapper">
+                <h3 class="comments__title title">Фотографы, снимающие Россию</h3>
+                <p class="comments__subtitle subtitle">Природа и люди вдохновили их работы, удостоенные наград на
+                    международных конкурсах</p>
+                <div class="comments__row">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
