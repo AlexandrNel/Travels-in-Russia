@@ -1,10 +1,23 @@
 .photo-grid {
-margin-bottom: 92px;
+  margin-bottom: 92px;
 
-&__wrapper {
+  &__wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-}
+  }
 
+  &__image {
+    overflow: hidden;
+    img{transition: transform .5s, filter .2s;
+        position: relative;
+        &:hover{
+            transform: scale(1.1);
+            filter: brightness(50%);
+        }
+        &::after{
+            
+        }
+    }
+  }
 }
