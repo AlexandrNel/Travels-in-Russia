@@ -1,0 +1,78 @@
+.additional {
+  margin-bottom: 102px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 48px;
+  }
+
+  &__subtitle {
+    margin-bottom: 72px;
+  }
+  &__row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    & div:before {
+      position: absolute;
+      z-index: 0;
+      inset: 0;
+      content: "";
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    & div:hover {
+      background-size: 350%;
+      transition: all 15s;
+    }
+  }
+
+  &__title-item {
+    font-size: 27px;
+    font-weight: 900;
+    z-index: 10;
+  }
+  &__desc-item {
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 145.227%;
+  }
+  &__novorossiysk-harbor,
+  &__arakul-ikhan,
+  &__cherepovets,
+  &__nikola-lenivets {
+    transition: all 1s;
+    overflow: hidden;
+    position: relative;
+    height: 330px;
+    padding: 30px 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__novorossiysk-harbor {
+    background: url(../img/additional/image1.jpg) no-repeat center center;
+    background-size: 180%;
+  }
+
+  &__arakul-ikhan {
+    background: url(../img/additional/image2.jpg) no-repeat center center;
+    background-size: 180%;
+  }
+  &__cherepovets {
+    background: url(../img/additional/image3.jpg) no-repeat center center;
+    background-size: 180%;
+  }
+  &__nikola-lenivets {
+    background: url(../img/additional/image4.jpg) no-repeat center center;
+    background-size: 210%;
+  }
+}
