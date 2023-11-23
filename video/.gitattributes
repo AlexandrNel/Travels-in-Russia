@@ -1,0 +1,2 @@
+kamchatka.mp4 filter=lfs diff=lfs merge=lfs -text
+observatory.mp4 filter=lfs diff=lfs merge=lfs -text
