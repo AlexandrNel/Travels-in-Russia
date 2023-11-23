@@ -1,0 +1,22 @@
+.comments {
+    margin-bottom: 102px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 48px;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 30px;
+    max-width: 640px;
+    text-align: center;
+  }
+
+  &__row {
+  }
+}
